@@ -1,0 +1,14 @@
+{
+  "name": "arabic-mneizel-addon",
+  "version": "1.1.0",
+  "description": "Stremio addon for streaming from wecima.click",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
